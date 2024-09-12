@@ -15,6 +15,7 @@ app.use(cors({
     origin:'*',
     methods: 'get, head, put, post, delete, patch', 
 })) // cors origin
+//testing update git by adding line
 
 //app.use(bodyparser.json())
 app.use('/api/users', userRoutes)
